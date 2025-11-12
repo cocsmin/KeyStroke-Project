@@ -1,4 +1,4 @@
-IntervalMs := 20          ; milliseconds between keys 
+IntervalMs := 100          ; milliseconds between keys 
 DurationMs := 30000       ; total duration in milliseconds (30000 = 30s)
 StartTime := A_TickCount  
 

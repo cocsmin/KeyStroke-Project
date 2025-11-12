@@ -1,3 +1,7 @@
 filename,label
-auto_20ms_laptopA_run01_features.csv,0
-human_user01_laptopA_run01_features.csv,1
+human_01_features.csv,1
+human_02_features.csv,1
+human_03_features.csv,1
+auto_100ms_01_features.csv,0
+auto_100ms_02_features.csv,0
+auto_100ms_03_features.csv,0
