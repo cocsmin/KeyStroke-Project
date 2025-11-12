@@ -1,5 +1,5 @@
 # Usage:
-# python extract_brightness.py C:\keystroke_project\KeyStroke-Project\raw_videos\video.mp4 --roi X Y W H --out C:\keystroke_project\KeyStroke-Project\brightness\out.csv
+# python extract_brightness.py C:\keystroke_project\KeyStroke-Project\raw_videos\video.mp4 --roi X Y W H --out C:\keystroke_project\KeyStroke-Project\brightness\brightness_out.csv
 
 import cv2, argparse, csv, numpy as np
 
