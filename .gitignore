@@ -1,3 +1,4 @@
 frames/auto_*
 frames/human_*
-raw_videos/
+*.MOV
+raw_videos/**/*
