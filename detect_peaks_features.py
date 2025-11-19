@@ -21,7 +21,7 @@ else:
     b = br
 fps = 1.0 / (times[1]-times[0])
 distance = max(1, int((args.min_interval_ms/1000.0)*fps))
-peaks, props = find_peaks(b, distance=distance, height=np.mean(b)+0.25*np.std(b))
+peaks, props = find_peaks(b, distance=distance, height=np.mean(b)+0.5*np.std(b))
 event_times = times[peaks]
 if args.events_out:
     pd.DataFrame({'time_s': event_times}).to_csv(args.events_out, index=False)
